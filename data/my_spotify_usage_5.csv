@@ -1,4 +1,4 @@
-Timestamp,Activity Type,Usage Duration (ms)
+Timestamp,Activity Type,Application
 2025-02-20 09:56:58,USER_INTERACTION,com.spotify.music
 2025-02-20 09:56:58,ACTIVITY_RESUMED,com.spotify.music
 2025-02-20 09:57:02,ACTIVITY_PAUSED,com.spotify.music

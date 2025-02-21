@@ -1,4 +1,4 @@
-Timestamp,Activity Type,Usage Duration (ms)
+Timestamp,Activity Type,Application
 2025-02-19 10:15:28,FOREGROUND_SERVICE_START,com.spotify.music
 2025-02-19 10:15:28,NOTIFICATION_INTERRUPTION,com.spotify.music
 2025-02-19 10:15:32,FOREGROUND_SERVICE_START,com.spotify.music

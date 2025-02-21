@@ -5,7 +5,18 @@ import pandas as pd
 from spotipy.oauth2 import SpotifyOAuth
 from dotenv import load_dotenv
 
+'''''''''
+
 # creates a random playlist from my_playlist_tracks.csv
+
+# if (i display in a frontend app) {
+    display the randomised playlists to shuffle in the background
+    spotify playback sdk
+
+    i would do user login but idk if i can in python within the timeframe lmao
+}
+
+'''''''''
 
 def create_playlist(csv_file, playlist_name, tracks_num=10):
 
