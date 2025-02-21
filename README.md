@@ -1,4 +1,7 @@
-# Explore My World of Music with [Spotify API]('https://developer.spotify.com/) and [Android Debug Bridge (adb)]('https://developer.android.com/tools/adb)
+# Explore My World of Music
+
+### [Spotify API]('https://developer.spotify.com/)
+### [Android Debug Bridge (adb)]('https://developer.android.com/tools/adb)
 
 ## What's here?
 
