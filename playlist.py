@@ -39,7 +39,7 @@ def create_playlist(csv_file, playlist_name, tracks_num=10):
     # random selection
     selected_tracks = random.sample(track_ids, min(tracks_num, len(track_ids)))
 
-    playlist_name = 'Random Playlist from AHS'
+    playlist_name = 'Random Playlist from playlist tracks'
     playlist_description = f"Random playlist from {csv_file} with {tracks_num} tracks."
     playlist = sp.user_playlist_create(user_id, playlist_name, description=playlist_description)
 

@@ -5,7 +5,8 @@
 
 ## What's here?
 
-### spotify_listening.ipynb
+
+### _(Start here for pip installs - uncomment)_ Spotify_listening.ipynb
     * my spotify data from the Spotify WEB API
 
 ###  spotify_listening.ipynb
