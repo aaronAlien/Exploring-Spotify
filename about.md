@@ -38,7 +38,6 @@ sns.barplot(x=list(genre_count.values()), y=list(genre_count.keys()), palette=co
 
 # _good stuff that helped:_
 
-
 - [Spotify for Developers](https://developer.spotify.com/)
 - [Android Debug Bridge (adb)](https://developer.android.com/tools/adb)
 #
@@ -48,4 +47,5 @@ sns.barplot(x=list(genre_count.values()), y=list(genre_count.keys()), palette=co
 #
 - [my first attempt using a new api](https://github.com/aaronAlien/tfl_api)
 - [sql visuals from when i first learnt SQL](https://dataschool.com/how-to-teach-people-sql/left-right-join-animated/)
--
+#
+# [google drive with screenshots/clips at various stages](https://drive.google.com/drive/folders/1Eyo8u6UDGjTMQf6-q0226ha3xbuyPQFo?usp=drive_link)
