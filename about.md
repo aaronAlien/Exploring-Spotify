@@ -1,5 +1,15 @@
 # Spotify Data Analysis
 
+## _General_
+- ``.concat()`` used frequently (in both notebooks) to gather df's with identical columns. then ``.reset_index(drop=(True)`` to create one new index for the new concat df
+
+- finding a color scheme 'plasma' greatly increased my satisfaction with the data visuals. pulling the colormap and applying to the plot:
+
+```
+colors = plt.cm.plasma(np.linspace(0, 1, len(all_top_artists)))
+sns.barplot(x=list(genre_count.values()), y=list(genre_count.keys()), palette=colors)
+```
+
 ## _Spotify Web API_
 - analysis of my personal spotify data
 - data visualisation with Pandas, Matplotlib, Seaborn, NumPy.
@@ -26,3 +36,16 @@
     -   It was great to learn how to pull my personal usage stats with ADB and convert to csv for analysis.
         - because i was prearing to do this a few times i created a little app that i could use daily. 
 
+# _good stuff that helped:_
+
+
+- [Spotify for Developers](https://developer.spotify.com/)
+- [Android Debug Bridge (adb)](https://developer.android.com/tools/adb)
+#
+- [web scraping - elena tech](https://github.com/Elena-tech/web-scraping-lesson)
+- [spotify api - elena tech](https://github.com/Elena-tech/api_lessons_101)
+- [word cloud (at In:[35]) - areevesman](https://github.com/areevesman/spotify-wrapped/blob/main/code/01_Data_Visualization.ipynb)
+#
+- [my first attempt using a new api](https://github.com/aaronAlien/tfl_api)
+- [sql visuals from when i first learnt SQL](https://dataschool.com/how-to-teach-people-sql/left-right-join-animated/)
+-
