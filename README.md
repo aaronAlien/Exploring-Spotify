@@ -1,4 +1,4 @@
-# Explore My World of Music
+# Spotify Web API exploration and analysis
 
 ### Tech used:
 [Spotify API]('https://developer.spotify.com/)
