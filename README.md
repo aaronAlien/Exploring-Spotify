@@ -5,10 +5,9 @@
 
 [Android Debug Bridge (adb)]('https://developer.android.com/tools/adb)
 
-`! pip install spotipy numpy pandas seaborn beautifulsoup4 matplotlib python-dotenv wordcloud pprint`
+## You will need to login and obtain an API key from [Spotify](https://developer.spotify.com/documentation/web-api)
 
-
-#### Spotify_listening.ipynb
+### Spotify_listening.ipynb
 - my spotify data from the Spotify Web API.
 - functions calling the API directly can have varied time range:
     - time_range reference can be found [here](https://developer.spotify.com/documentation/web-api/reference/get-users-top-artists-and-tracks)
@@ -37,12 +36,11 @@ def get_artists(time_range='long_term', limit=20):
 ```
 my_artists_df = get_artists('short_term')
 ```
-
-
-
-####  spotify_interactions.ipynb
+###  spotify_interactions.ipynb
     - collecting my mobile Spotify usage data from android, daily.
     
     - ouput shows interactions with the app per day from a selection of activity types.
 
-## see _about.md_ for project report
+`! pip install spotipy numpy pandas seaborn beautifulsoup4 matplotlib python-dotenv wordcloud pprint`
+
+## see [_about.md_](https://github.com/aaronAlien/My-Spotify-Vibes/blob/main/about.md) for project report
